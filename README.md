@@ -10,11 +10,11 @@
 7. **주의!! 기존 폴더를 지우면 안됩니다!!** 개인 폴더 내부만 수정해주세요 :)
 
 ## ✅ commit 규칙
-- commit 메세지: [BOJ] 문제이름 / 난이도 / 걸린시간
+- commit 메세지: [BOJ] 문제이름 / 난이도 
 - description: 문제 주소 (option)
 - 터미널에서 작성법:
 ```
-git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
+git commit -m "[BOJ] Hello World / 브론즈5 " -m "https://www.acmicpc.net/problem/2557"
 ```
 
 ## ✅ PR 규칙
