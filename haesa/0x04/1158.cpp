@@ -4,6 +4,9 @@ list<int> perm;
 vector<int> result;
 int n, k;
 int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
   cin >> n >> k;
   for (int i = 1; i <= n; i++) perm.push_back(i);
   for (list<int>::iterator addr = perm.begin(); perm.empty() != true;) {
