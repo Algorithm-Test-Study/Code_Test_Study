@@ -3,7 +3,7 @@ package week2.stack;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-//[BOJ] 제로 / 실버4
+
 public class Zero {
     public void solution() throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
