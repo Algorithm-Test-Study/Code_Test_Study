@@ -8,6 +8,9 @@ int n;
 int main() {
   cin >> n;
   for (int i = 0; i < n; i++) {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
     cin >> input;
     list<char> l;
     list<char>::iterator t = l.end();
