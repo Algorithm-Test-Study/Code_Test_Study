@@ -19,7 +19,7 @@ int main()
         for(int i=0; i<str.size(); i++){
             if (str[i] == '(' || str[i] == '[') s.push(str[i]);
             else if(str[i] == ')' ){
-                if(!s.empty() && s.top() == ')') s.pop();
+                if(!s.empty() && s.top() == '(') s.pop();
                 else{
                     check = false; break;
                 }
