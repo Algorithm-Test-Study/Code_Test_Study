@@ -23,5 +23,4 @@ for _ in range(int(input())):
         else:
             stk1.append(k)
     stk1.extend(reversed(stk2))
-    print(''.join(stk1), end="")
-
+    print(''.join(stk1))
