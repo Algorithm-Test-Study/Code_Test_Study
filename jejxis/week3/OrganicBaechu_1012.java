@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-//[BOJ] 유기농 배추 / 실버2
+
 public class OrganicBaechu_1012 {
     public void solution() throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
