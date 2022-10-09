@@ -20,10 +20,8 @@ int main()
             cin >> board[i][j];
             if(board[i][j] == 1){
                 q.push({i,j});
-                dist[i][j] = 1;
+                dist[i][j] = 0;
             }
-            if(board[i][j] == 0)
-                dist[i][j] == 0;
         }
     }
     int max = 0;
@@ -48,6 +46,6 @@ int main()
             }
         }
     }
-    cout << (max==0 ? 0 : max-1);
+    cout << max;
     return 0;
 }
