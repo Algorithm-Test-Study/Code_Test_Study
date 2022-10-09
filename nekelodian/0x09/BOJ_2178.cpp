@@ -18,7 +18,6 @@ int main()
     for(int i=0; i<n; i++){
         cin >> board[i];
     }
-    for(int i=0; i<n; i++)  fill(dist[i], dist[i]+m, 0);
     q.push({0,0});
     dist[0][0] = 1;
     while(!q.empty()){
