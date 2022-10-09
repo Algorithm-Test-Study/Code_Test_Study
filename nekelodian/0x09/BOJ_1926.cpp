@@ -24,7 +24,6 @@ int main()
     int cnt = 0, mx = 0;
     for(int i=0; i<n; i++){
         for(int j=0; j<m; j++){
-            //if(pic[i][j] == 0 || vis[i][j] == 1)    continue;
             if(pic[i][j] == 1 && vis[i][j] == 0){
                 cnt++;
                 q.push({i,j});
