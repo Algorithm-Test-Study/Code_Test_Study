@@ -45,7 +45,7 @@ public class Tomato_7569 {
                 int ny = cur.y + dy[d];
                 int nz = cur.z + dz[d];
                 if(nx < 0 || nx >= h || ny < 0 || ny >= n || nz < 0 || nz >= m) continue;//범위밖
-                if(dist[nx][ny][nz] >= 0 ) continue;//이미 익음
+                if(dist[nx][ny][nz] >= 0 ) continue;//이미 익었거나 빈 공간
                 dist[nx][ny][nz] = dist[cur.x][cur.y][cur.z] +1;
                 q.add(new XYZ(nx, ny, nz));
             }
