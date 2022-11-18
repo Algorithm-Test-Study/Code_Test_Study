@@ -44,7 +44,7 @@ public class MeetingRoomAssignment_1931 {
             Pair next = arr.get(i);
             if(now.finish <= next.start){//현재 회의의 끝나는 시간과 다음 회의의 시작시간 비교
                 now = next;//끝나는 시간이 더 빠르면 now에 next 저장하고
-                count++;//개수 증가
+                count++;//개수 1 증가
             }
         }
 
